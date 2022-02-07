@@ -13,7 +13,6 @@ contract YTH {
     mapping(address => uint) public balanceOf;
     mapping(address => mapping(address => uint)) public allowance;
 
-
     constructor() public {
         balanceOf[msg.sender] = totalSupply;
     }
